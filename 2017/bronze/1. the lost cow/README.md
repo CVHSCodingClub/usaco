@@ -8,11 +8,19 @@ The recommended solution for Farmer John to find Bessie is to move to position x
 Farmer John is curious to verify this result. Given x and y, please compute the total distance he will travel according to the zig-zag search strategy above until he finds Bessie.
 
 INPUT FORMAT (file lostcow.in):
+
 The single line of input contains two distinct space-separated integers x and y. Both are in the range 0…1,0000…1,000.
+
 OUTPUT FORMAT (file lostcow.out):
+
 Print one line of output, containing the distance Farmer John will travel to reach Bessie.
+
 SAMPLE INPUT:
+
 3 6
+
 SAMPLE OUTPUT:
+
 9
+
 Problem credits: Brian Dean

@@ -4,8 +4,11 @@ The overhead image of his farm taken by the camera is described by an N×N grid 
 For example, a rectangle with contents
 
 AAAAA
+
 ABABA
+
 AAABB
+
 would constitute a PCL, since the A's form a single contiguous region and the B's form more than one contiguous region. The interpretation is a cow of color A with spots of color B.
 
 A region is "contiguous" if you can traverse the entire region by moving repeatedly from one cell in the region to another cell in the region taking steps up, down, left, or right.
@@ -13,27 +16,47 @@ A region is "contiguous" if you can traverse the entire region by moving repeate
 Given the image returned by FJ's camera, please count the number of PCLs.
 
 INPUT FORMAT (file where.in):
+
 The first line of input contains N, the size of the grid (1≤N≤20). The next N lines describe the image, each consisting of N characters.
+
 OUTPUT FORMAT (file where.out):
+
 Print a count of the number of PCLs in the image.
+
 SAMPLE INPUT:
+
 4
+
 ABBC
+
 BBBC
+
 AABB
+
 ABBC
+
 SAMPLE OUTPUT:
+
 2
+
 In this example, the two PCLs are the rectangles with contents
 
 ABB
+
 BBB
+
 AAB
+
 ABB
+
 and
 
 BC
+
 BC
+
 BB
+
 BC
+
 Problem credits: Brian Dean
